@@ -1,6 +1,6 @@
 # 🦉TRSO-MIGRATOR
 
-TRSO migrator is a simple cli application which applies SQL files from a folder set in the environment variables to the local or remote Turso database.
+TRSO migrator is a simple cli application which applies SQL files from a folder set in the environment variables to the local or remote [Turso](https://turso.tech) database.
 
 The main objective of the CLI is to be able to quickly work on your hobby projects. It was created purely for my personal needs, but feel free to use and send PRs.
 
