@@ -1,8 +1,8 @@
 [package]
 name = "trso-migrator"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Sardorbek Pulatov <sardo@hey.com>"]
-edition = "2021"
+edition = "2024"
 description = "Simple and easy migrator for Turso"
 license = "MIT"
 repository = "https://github.com/oneslash/trso-migrator"
