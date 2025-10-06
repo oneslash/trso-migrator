@@ -128,7 +128,7 @@ async fn migrate_database(conn: &Connection, path: String) -> Result<(), AppErro
         let transaction = conn.transaction().await.unwrap();
         match transaction.execute_batch(&migration_content).await {
             Ok(_) => {
-                let _ = conn.execute(
+                let _ = transaction.execute(
                     "INSERT INTO migrations (file_name) VALUES (?1)",
                     [name.as_str()],
                 )
