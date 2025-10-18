@@ -13,5 +13,5 @@ The CLI on the first run creates `migrations` table and writes there applied mig
 | `TRSO_LOCAL`           | -                                   | Local database or remote flag                |
 | `TRSO_PATH_URL`        | -                                   | File path or the url of the remote           |
 | `TRSO_TOKEN`           | -                                   | Must be set if `TRSO_LOCAL` is false          |
+| `TRSO_DSN`             | -                                   | DSN like `libsql://...?...authToken=...`; overrides `TRSO_PATH_URL` and `TRSO_TOKEN` |
 | `TRSO_MIGRATIONS_PATH` | `<CURRENT_WORKING_DIR>`/migrations/ | Folder where the migration files are located |
-
